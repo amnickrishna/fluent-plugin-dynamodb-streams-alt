@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "fluent-plugin-dynamodb-streams"
+  spec.name          = "fluent-plugin-dynamodb-streams-alt"
   spec.version       = "0.0.3"
-  spec.authors       = ["Takumi Sakamoto"]
-  spec.email         = ["takumi.saka@gmail.com"]
+  spec.authors       = ["krishna ramanathan"]
+  spec.email         = ["krishna@amnic.com"]
   spec.summary       = %q{Amazon DynamoDB Streams input plugin for Fluentd}
-  spec.description   = %q{Amazon DynamoDB Streams input plugin for Fluentd}
-  spec.homepage      = "https://github.com/takus/fluent-plugin-dynamodb-streams"
+  spec.description   = %q{forked from cosmo0920/fluent-plugin-dynamodb-streams}
+  spec.homepage      = "https://github.com/amnickrishna/fluent-plugin-dynamodb-streams-alt"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
