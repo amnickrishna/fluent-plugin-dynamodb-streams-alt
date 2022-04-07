@@ -1,10 +1,10 @@
-# fluent-plugin-dynamodb-streams
+# fluent-plugin-dynamodb-streams-alt
 
-[![Gem Version](https://badge.fury.io/rb/fluent-plugin-dynamodb-streams.svg)](http://badge.fury.io/rb/fluent-plugin-dynamodb-streams)
-[![Build Status](https://travis-ci.org/takus/fluent-plugin-dynamodb-streams.svg?branch=master)](https://travis-ci.org/takus/fluent-plugin-dynamodb-streams)
-[![Test Coverage](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams/badges/coverage.svg)](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams/coverage)
-[![Code Climate](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams/badges/gpa.svg)](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/a9fc76d35c8d4175bcb23e5c4b38fb85)](https://www.codacy.com/app/takus/fluent-plugin-dynamodb-streams)
+[![Gem Version](https://badge.fury.io/rb/fluent-plugin-dynamodb-streams-alt.svg)](http://badge.fury.io/rb/fluent-plugin-dynamodb-streams-alt)
+[![Build Status](https://travis-ci.org/takus/fluent-plugin-dynamodb-streams-alt.svg?branch=master)](https://travis-ci.org/takus/fluent-plugin-dynamodb-streams-alt)
+[![Test Coverage](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams-alt/badges/coverage.svg)](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams-alt/coverage)
+[![Code Climate](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams-alt/badges/gpa.svg)](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams-alt)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/a9fc76d35c8d4175bcb23e5c4b38fb85)](https://www.codacy.com/app/takus/fluent-plugin-dynamodb-streams-alt)
 
 Fluentd input plugin for [AWS DynamoDB Streams](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html).
 
@@ -37,7 +37,7 @@ Or define `aws_key_id` and `aws_sec_key` in your config file.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'fluent-plugin-dynamodb-streams'
+gem 'fluent-plugin-dynamodb-streams-alt'
 ```
 
 And then execute:
@@ -46,7 +46,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install fluent-plugin-dynamodb-streams
+    $ gem install fluent-plugin-dynamodb-streams-alt
 
 ## Configuration
 

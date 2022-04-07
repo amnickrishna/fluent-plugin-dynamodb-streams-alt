@@ -14,8 +14,8 @@ class DynamoDBStreamsInputTest < Test::Unit::TestCase
         aws_key_id      test_key_id
         aws_sec_key     test_sec_key
         aws_region      ap-northeast-1
-        stream_arn      arn:aws:dynamodb:ap-northeast-1:123456789012:table/fluent-plugin-dynamodb-streams/stream/2015-09-01T00:00:00.000
-        pos_file        /tmp/fluent-plugin-dynamodb-streams.pos
+        stream_arn      arn:aws:dynamodb:ap-northeast-1:123456789012:table/fluent-plugin-dynamodb-streams-alt/stream/2015-09-01T00:00:00.000
+        pos_file        /tmp/fluent-plugin-dynamodb-streams-alt.pos
         fetch_interval  5
         fetch_size      100
       ]
@@ -24,8 +24,8 @@ class DynamoDBStreamsInputTest < Test::Unit::TestCase
     assert_equal 'test_key_id', d.instance.aws_key_id
     assert_equal 'test_sec_key', d.instance.aws_sec_key
     assert_equal 'ap-northeast-1', d.instance.aws_region
-    assert_equal 'arn:aws:dynamodb:ap-northeast-1:123456789012:table/fluent-plugin-dynamodb-streams/stream/2015-09-01T00:00:00.000', d.instance.stream_arn
-    assert_equal '/tmp/fluent-plugin-dynamodb-streams.pos', d.instance.pos_file
+    assert_equal 'arn:aws:dynamodb:ap-northeast-1:123456789012:table/fluent-plugin-dynamodb-streams-alt/stream/2015-09-01T00:00:00.000', d.instance.stream_arn
+    assert_equal '/tmp/fluent-plugin-dynamodb-streams-alt.pos', d.instance.pos_file
     assert_equal 5.0, d.instance.fetch_interval
     assert_equal 100, d.instance.fetch_size
   end

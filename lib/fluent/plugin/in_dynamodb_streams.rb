@@ -1,6 +1,6 @@
-require 'aws-sdk-dynamodbstreams'
-require 'bigdecimal'
 require 'fluent/plugin/input'
+require 'bigdecimal'
+require 'aws-sdk-dynamodbstreams'
 
 module Fluent::Plugin
   class DynamoDBStreamsInput < Input
