@@ -8,7 +8,7 @@
 
 Fluentd input plugin for [AWS DynamoDB Streams](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html).
 
-```Forked from takus/fluent-plugin-dynamodb-streams; with fixes from cosmo0920/fluent-plugin-dynamodb-streams```
+Forked from [takus/fluent-plugin-dynamodb-streams](https://github.com/takus/fluent-plugin-dynamodb-streams); with fixes from [cosmo0920/fluent-plugin-dynamodb-streams](https://github.com/cosmo0920/fluent-plugin-dynamodb-streams)
 
 ## Preparation
 
