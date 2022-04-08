@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["krishna ramanathan"]
   spec.email         = ["krishna@amnic.com"]
   spec.summary       = %q{Amazon DynamoDB Streams input plugin for Fluentd}
-  spec.description   = %q{forked from cosmo0920/fluent-plugin-dynamodb-streams}
+  spec.description   = %q{Forked from takus/fluent-plugin-dynamodb-streams; with fixes from cosmo0920/fluent-plugin-dynamodb-streams}
   spec.homepage      = "https://github.com/amnickrishna/fluent-plugin-dynamodb-streams-alt"
   spec.license       = "MIT"
 
