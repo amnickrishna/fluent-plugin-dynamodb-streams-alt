@@ -2,9 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/fluent-plugin-dynamodb-streams-alt.svg)](http://badge.fury.io/rb/fluent-plugin-dynamodb-streams-alt)
 [![Build Status](https://travis-ci.org/takus/fluent-plugin-dynamodb-streams-alt.svg?branch=master)](https://travis-ci.org/takus/fluent-plugin-dynamodb-streams-alt)
-[![Test Coverage](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams-alt/badges/coverage.svg)](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams-alt/coverage)
-[![Code Climate](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams-alt/badges/gpa.svg)](https://codeclimate.com/github/takus/fluent-plugin-dynamodb-streams-alt)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/a9fc76d35c8d4175bcb23e5c4b38fb85)](https://www.codacy.com/app/takus/fluent-plugin-dynamodb-streams-alt)
+
 
 Fluentd input plugin for [AWS DynamoDB Streams](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html).
 
