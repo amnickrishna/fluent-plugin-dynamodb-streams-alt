@@ -1,4 +1,4 @@
-# fluent-plugin-dynamodb-streams-alt
+# AWS DynamoDB input plugin for fluentD
 
 [![Gem Version](https://badge.fury.io/rb/fluent-plugin-dynamodb-streams-alt.svg)](http://badge.fury.io/rb/fluent-plugin-dynamodb-streams-alt)
 [![Build Status](https://travis-ci.org/takus/fluent-plugin-dynamodb-streams-alt.svg?branch=master)](https://travis-ci.org/takus/fluent-plugin-dynamodb-streams-alt)
